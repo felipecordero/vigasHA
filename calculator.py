@@ -48,7 +48,7 @@ def calculate(fc, fy, E, L, B, H, r, a, e, cm, sc, tipo):
         # Resultados ro_rob
         ro_rob_results.append([f"{f[2]} %"])
         # Resultados de Corte
-        if not corte == ["cambiar seccion"]:
+        if not corte == "cambiar seccion":
             v_results.append([f"Vu = {round(vu, 1)} [ton]; Av = {corte[0]} [cm²/m]; s = {corte[1]} cm"])
         else:
             v_results.append([f"Vu = {round(vu, 1)} [ton]; change section"])
