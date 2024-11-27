@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Years ago, during my early coding adventures, I developed a beam calculator to assist with structural analysis. Today, I'm thrilled to present its modern reincarnation as a web application, powered by [Streamlit](https://streamlit.io/).
+Many years ago, during my early coding adventures, I developed a concrete beam calculator to assist with structural analysis. Today, I'm happy to present its modern reincarnation as a web application, powered by [Streamlit](https://streamlit.io/). It could be not perfect, but was very useful for me at the beginning of my structural engineering career.
 
 ## Features 🚀
 
@@ -16,9 +16,9 @@ Years ago, during my early coding adventures, I developed a beam calculator to a
 
 ## Getting Started 🛠️
 
-To use the Beam Calculator:
+To use the Concrete Beam Calculator:
 
-1. Visit the [Beam Calculator App](https://beam-calculator.streamlit.app/).
+1. Visit the [Concrete Beam Calculator App](https://concrete-beam-calculator.streamlit.app/).
 2. Input the beam parameters.
 3. Define the loading conditions and support configurations.
 4. Click "Calculate" and Voilá.
@@ -26,7 +26,7 @@ To use the Beam Calculator:
 
 ## Installation 🖥️
 
-To run the Beam Calculator locally:
+To run the **Concrete Beam Calculator** locally:
 
 1. Clone this repository:
    ```bash
@@ -42,7 +42,7 @@ To run the Beam Calculator locally:
    ```
 4. Launch the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 ## Contributing 🤝

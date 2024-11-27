@@ -9,7 +9,7 @@ def webfelipe():
     webbrowser.open("https://felipecordero.cl")
 
 st.set_page_config(
-    page_title="Beam Calculator - Felipe Cordero",
+    page_title="Concrete Beam Calculator - Felipe Cordero",
     page_icon="👷",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -20,7 +20,7 @@ st.set_page_config(
 )
 col1, col2 = st.columns((1,2), vertical_alignment="center")
 with col1:
-    st.title("👷 Beam Calculator 🏗️")
+    st.title("👷 Concrete Beam Calculator 🏗️")
 with col2:
     st.markdown("[**felipecordero.com**](https://felipecordero.com)")
 
