@@ -114,9 +114,9 @@ if results is not None:
     # The cross section
     r = col1.container(border=True)
     r.subheader("Cross Section")
-    r.image(svg_cross_sec, width=600)
+    r.image(svg_cross_sec, use_container_width=True)
 
     # The Elevation
     r = col2.container(border=True)
     r.subheader("Elevation")
-    r.image(svg_elev, width=600)
+    r.image(svg_elev, use_container_width=True)
