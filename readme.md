@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Many years ago, during my early coding adventures, I developed a concrete beam calculator to assist with structural analysis. Today, I'm happy to present its modern reincarnation as a web application, powered by [Streamlit](https://streamlit.io/). It could be not perfect, but was very useful for me at the beginning of my structural engineering career.
+Many years ago, during my early coding adventures, I developed a concrete beam calculator to assist with structural analysis using **Python**. Today, I'm happy to present its modern reincarnation as a web application, powered by [Streamlit](https://streamlit.io/). It could be not perfect, but was very useful for me at the beginning of my structural engineering career.
 
 ## Features 🚀
 
@@ -14,8 +14,8 @@ Many years ago, during my early coding adventures, I developed a concrete beam c
 - **Section Properties**: Define the dimensions.
 - **Visualization**: Explore the results visually.
 
-[[![Watch the video]](image.png)]
-(https://raw.githubusercontent.com/felipecordero/vigasHA/master/video/video_example.mp4)
+https://github.com/user-attachments/assets/19bc97a0-0c20-4ac2-aec8-7d517a7ae91e
+
 
 ## Getting Started 🛠️
 
