@@ -14,7 +14,7 @@ Many years ago, during my early coding adventures, I developed a concrete beam c
 - **Section Properties**: Define the dimensions.
 - **Visualization**: Explore the results visually.
 
-[![Watch the video]](image.png)
+[[![Watch the video]](image.png)]
 (https://raw.githubusercontent.com/felipecordero/vigasHA/master/video/video_example.mp4)
 
 ## Getting Started 🛠️
