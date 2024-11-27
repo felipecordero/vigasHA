@@ -47,7 +47,7 @@ def corte(b,h,rec,fc,fy,vu,nu,phi):
         
     av = max(av_s*10,av_min)
     
-    return("Av = "+str(round(av,1))+" s = "+str(round(smax,1)))
+    return round(av,1), round(smax,1)
     
         
         

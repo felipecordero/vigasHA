@@ -13,17 +13,12 @@
   <property name="windowTitle">
    <string>Programa para Calculo de Vigas - Felipe Cordero O.</string>
   </property>
-  <property name="windowIcon">
-   <iconset resource="images.qrc">
-    <normaloff>:/logos/logofcsoft-icono.png</normaloff>:/logos/logofcsoft-icono.png</iconset>
-  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_3">
     <item row="0" column="0" colspan="2">
      <widget class="QLabel" name="label_4">
       <property name="font">
        <font>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -44,7 +39,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="images.qrc">:/logos/logofcsoft-1-256x256.png</pixmap>
+       <pixmap>logofcsoft-1-256x256.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>false</bool>
@@ -66,7 +61,6 @@
         </property>
         <property name="font">
          <font>
-          <weight>75</weight>
           <bold>true</bold>
          </font>
         </property>
@@ -122,7 +116,6 @@
        <widget class="QLabel" name="label_3">
         <property name="font">
          <font>
-          <weight>75</weight>
           <bold>true</bold>
          </font>
         </property>
@@ -159,7 +152,6 @@
        <widget class="QLabel" name="label_2">
         <property name="font">
          <font>
-          <weight>75</weight>
           <bold>true</bold>
          </font>
         </property>
@@ -173,7 +165,7 @@
     <item row="1" column="3">
      <spacer name="horizontalSpacer_2">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Orientation::Horizontal</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -186,7 +178,7 @@
     <item row="2" column="1">
      <spacer name="verticalSpacer">
       <property name="orientation">
-       <enum>Qt::Vertical</enum>
+       <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -200,7 +192,6 @@
      <widget class="QLabel" name="label_5">
       <property name="font">
        <font>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -213,7 +204,6 @@
      <widget class="QLabel" name="label_11">
       <property name="font">
        <font>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -227,7 +217,6 @@
       <property name="font">
        <font>
         <pointsize>15</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -249,7 +238,6 @@
         <widget class="QLabel" name="label_9">
          <property name="font">
           <font>
-           <weight>75</weight>
            <bold>true</bold>
           </font>
          </property>
@@ -278,7 +266,6 @@
         <widget class="QLabel" name="label_6">
          <property name="font">
           <font>
-           <weight>75</weight>
            <bold>true</bold>
           </font>
          </property>
@@ -307,7 +294,6 @@
         <widget class="QLabel" name="label_7">
          <property name="font">
           <font>
-           <weight>75</weight>
            <bold>true</bold>
           </font>
          </property>
@@ -336,7 +322,6 @@
         <widget class="QLabel" name="label_10">
          <property name="font">
           <font>
-           <weight>75</weight>
            <bold>true</bold>
           </font>
          </property>
@@ -374,15 +359,14 @@
       </property>
       <property name="font">
        <font>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
       <property name="verticalScrollBarPolicy">
-       <enum>Qt::ScrollBarAlwaysOff</enum>
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
       </property>
       <property name="horizontalScrollBarPolicy">
-       <enum>Qt::ScrollBarAlwaysOff</enum>
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
       </property>
       <property name="autoScroll">
        <bool>true</bool>
@@ -432,7 +416,7 @@
     <item row="4" column="4">
      <spacer name="horizontalSpacer">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Orientation::Horizontal</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -446,7 +430,6 @@
      <widget class="QLabel" name="label_8">
       <property name="font">
        <font>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -458,7 +441,7 @@
     <item row="5" column="2">
      <spacer name="verticalSpacer_2">
       <property name="orientation">
-       <enum>Qt::Vertical</enum>
+       <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -526,8 +509,6 @@
   <tabstop>TablaCargas</tabstop>
   <tabstop>resultados</tabstop>
  </tabstops>
- <resources>
-  <include location="images.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
