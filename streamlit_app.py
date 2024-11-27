@@ -42,7 +42,7 @@ results = None
 
 with col1:
     with st.container(border=True):
-        st.subheader("Design Parameter", anchor=False)
+        st.subheader("Design Parameters", anchor=False)
         fc = st.selectbox("Concrete:", options=constants.fc.keys(), index=2)
         fy = st.selectbox("Steel: ", options=constants.fy.keys(),)
         tipo = st.selectbox("Beam type", options=constants.res.keys())
