@@ -20,7 +20,7 @@ st.set_page_config(
 )
 col1, col2 = st.columns((1,2), vertical_alignment="center")
 with col1:
-    st.title("👷 Concrete Beam Calculator 🏗️")
+    st.title("👷 Concrete Beam Calculator")
 with col2:
     st.markdown("[**felipecordero.com**](https://felipecordero.com)")
 
