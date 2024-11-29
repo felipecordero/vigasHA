@@ -48,6 +48,30 @@ To run the **Concrete Beam Calculator** locally:
    streamlit run streamlit_app.py
    ```
 
+## The PySide6 is also present! 🖥️
+
+![Desktop App](image-1.png)
+
+If you want to try the Desktop App:
+
+1. Navigate to the project directory:
+   ```bash
+   cd vigaHA
+   ```
+2. In the file requirements, uncomment the line:
+   ```bash
+   # PySide6==6.8.0.2
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Launch the Streamlit app:
+   ```bash
+   python vigas.py
+   ```
+
 ## Contributing 🤝
 
 I welcome contributions to enhance the Beam Calculator. To contribute:

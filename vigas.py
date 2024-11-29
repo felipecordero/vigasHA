@@ -1,28 +1,21 @@
 import sys
-import vigasHA.constants as constants
+import constants as constants
 
 from vigasgui import Ui_MainWindow
-from PyQt6.QtWidgets  import QMainWindow, QTableWidgetItem as Item, QApplication
+from PySide6.QtWidgets  import QMainWindow, QTableWidgetItem as Item, QApplication
 
 from flexvigas import flexion
-from cortevigas import corte
-import webbrowser
+import cortevigas
 
 class Principal(QMainWindow, Ui_MainWindow):
 
     def __init__(self, parent=None):
         super(Principal, self).__init__(parent)
         self.setupUi(self)
-        self.label_12.mousePressEvent = self.webfelipe
         self.label_12.setToolTip("Abrir sitio web de Felipe Cordero")
-#        self.label_12.setTextInteractionFlags(QtCore.Qt.TextBrowserInteraction)
-#        self.label_12.setOpenExternalLinks(True)
         self.show()
 
         self.calcular.clicked.connect(self.calcular_todo)
-
-    def webfelipe(self, event):
-        webbrowser.open("https://felipecordero.cl")
     
     def calcular_todo(self):
 
@@ -86,7 +79,12 @@ class Principal(QMainWindow, Ui_MainWindow):
                     self.resultados.setItem(fila + 1, col, rorobItem)
                 if fila == 2:
                     vu = constants.res[self.tipo.currentText()][V[col]]*qu*L
-                    item = Item(str(round(vu,1))+" "+str(corte(B,H,r,fc,fy,vu,0,0.75)))
+                    corte = cortevigas.corte(B,H,r,fc,fy,vu,0,0.75)
+                    if not corte == "cambiar seccion":
+                        v_results = f"Vu = {round(vu, 1)} [ton]; Av = {corte[0]} [cm²/m]; s = {corte[1]} cm"
+                    else:
+                        v_results = f"Vu = {round(vu, 1)} [ton]; change section"
+                    item = Item(v_results)
                     self.resultados.setItem(fila,col,item)
                 if fila == 3:
                     du = constants.res[self.tipo.currentText()][D[col]]*quLP*L**4/(E*I)*100
