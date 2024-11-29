@@ -6,7 +6,7 @@ from calculator import calculate
 from svg_generator import create_beam_svg
 
 def webfelipe():
-    webbrowser.open("https://felipecordero.cl")
+    webbrowser.open("https://felipecordero.com")
 
 st.set_page_config(
     page_title="Concrete Beam Calculator - Felipe Cordero",
@@ -18,9 +18,9 @@ st.set_page_config(
         'Get help': "https://linkedin.com/in/felipe-cordero-osorio",
     }
 )
-col1, col2 = st.columns((1,2), vertical_alignment="center")
+col1, col2, _ = st.columns((2,1, 1), vertical_alignment="center")
 with col1:
-    st.title("👷 Concrete Beam Calculator")
+    st.title("👷 Concrete Beam Calculator 🏗️")
 with col2:
     st.markdown("[**felipecordero.com**](https://felipecordero.com)")
 

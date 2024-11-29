@@ -50,7 +50,7 @@ To run the **Concrete Beam Calculator** locally:
 
 ## The PySide6 is also present! 🖥️
 
-![Desktop App](image-1.png)
+![Desktop App](assets/image-2.png)
 
 If you want to try the Desktop App:
 
