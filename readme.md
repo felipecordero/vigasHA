@@ -48,7 +48,7 @@ To run the **Concrete Beam Calculator** locally:
    streamlit run streamlit_app.py
    ```
 
-## The PySide6 is also present! 🖥️
+## The PySide6 App is also present! 🖥️
 
 ![Desktop App](assets/image-2.png)
 
